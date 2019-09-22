@@ -23,7 +23,7 @@ const Welcome = () => {
         data-aos-duration="1250"
       >
         <div className="container has-text-centered single-spaced">
-          <h1 className="subtitle">Hello, I'm <span className="title has-text-primary">Demaspira Aulia</span></h1>
+          <h1 className="subtitle">Hello, I'm <br className="hidden" /><span className="title has-text-primary">Demaspira Aulia</span></h1>
           <h1 className="subtitle">A computer science fresh graduate</h1>
           <button
             className="button is-primary is-outlined is-rounded"

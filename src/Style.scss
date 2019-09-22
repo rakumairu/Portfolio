@@ -15,6 +15,19 @@ $family-sans-serif: "Nunito", sans-serif;
   line-height: 0.5;
 }
 
+.hidden {
+  display: none;
+}
+
+@media (max-width: 370px) {
+  .single-spaced, .single-spaced * {
+    line-height: 1;
+  }
+  .hidden {
+    display: inline;
+  }
+}
+
 /* .main-title {
   text-decoration-line: underline;
 } */
@@ -31,3 +44,4 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 nav.hidden {
   display: none;
 }
+
